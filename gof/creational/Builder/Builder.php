@@ -162,3 +162,6 @@ class BuilderExample
         $pizza = $waiter->getPizza();
     }
 }
+
+$application = new BuilderExample();
+$application->run();

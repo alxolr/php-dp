@@ -115,3 +115,6 @@ class ApplicationRunner
         }
     }
 }
+
+$application = new ApplicationRunner();
+$application->run();
