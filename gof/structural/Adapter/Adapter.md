@@ -1,4 +1,4 @@
-#Abstract Factory Pattern
+#Adapter Pattern
 ##Type
 *Structural*
 

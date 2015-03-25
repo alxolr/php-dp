@@ -1,4 +1,4 @@
-#Abstract Factory Pattern
+#Bridge Pattern
 ##Type
 *Structural*
 
