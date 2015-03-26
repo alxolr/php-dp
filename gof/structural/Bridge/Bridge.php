@@ -141,3 +141,8 @@ class BridgeBookOtherInformation extends BridgeBook
     }
 }
 
+$book = new BridgeBookInformation("Larry Truett", "PHP for Cats", new BridgeBookCapsImp());
+echo $book->showTitleAuthor();
+
+$book = new BridgeBookOtherInformation("Larry Truett", "PHP for Cats", new BridgeBookStarsImp());
+echo $book->showAuthorTitle();
