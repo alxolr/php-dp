@@ -3,7 +3,7 @@
 *Structural*
 
 ##Intent
-*Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual object and compositions of objects uniformly*
+> *Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual object and compositions of objects uniformly*
 
 ##Applicability
 Use the **Composite Pattern** when:
