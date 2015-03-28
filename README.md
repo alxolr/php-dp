@@ -1,8 +1,6 @@
 # Design Patterns Written in PHP
 *This repository is a collection of code examples for the standard catalog of design patterns*
 
-![](https://insight.sensiolabs.com/projects/b24d96e4-b3df-422b-b1b7-5ade93c53f50/small.png)
-
 ## List of design patterns
 ### 1. GOF 
 [Design Patterns Elements of Reusable Object-Oriented Software][1]
