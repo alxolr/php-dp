@@ -16,6 +16,7 @@
  - [*Adapter*][7]
  - [*Bridge*][8]
  - [*Composite*][9]
+ - [*Decorator*][10]
 
 [1]: http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1427538154&sr=8-1&keywords=Design+patterns+elements
 [2]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Singleton
@@ -26,6 +27,7 @@
 [7]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Adapter
 [8]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Bridge
 [9]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Composite
+[10]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Decorator
 
 
 
