@@ -24,7 +24,7 @@ Typical uses include:
  - checking that the real object is locked before it's accessed to ensure that no other object can change it.
 
 ##Diagram
-[!(http://yuml.me/1c3ed541)]
+![Proxy](http://yuml.me/1c3ed541)
 
 ##Participants
 - **Proxy**
