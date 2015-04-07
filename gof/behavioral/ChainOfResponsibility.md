@@ -22,4 +22,5 @@
  - initiates the request to a `ConcreteHandler` object on the chain.
  
 ##Colaborations
-- When a client issues a request, the request propagates along the chainuntil a `ConcreteHandler` object takes responsibility for handling it.
+- When a client issues a request, the request propagates along the chain until a `ConcreteHandler` object takes 
+responsibility for handling it.
