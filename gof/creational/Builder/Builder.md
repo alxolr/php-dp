@@ -1,4 +1,4 @@
-#Builder Pattern
+#[Builder Pattern] [1]
 ##Type
 *Creational*
 
@@ -28,3 +28,5 @@ Use **Builder** when:
 - `Director` notifies the `Builder` whenever a part of the product should be built.
 - `Builder` handles requests from the director and adds parts to the product.
 - The client retrieves the product from the `builder`.
+
+[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

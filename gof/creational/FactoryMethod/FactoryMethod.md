@@ -1,4 +1,4 @@
-#Factory Method
+#[Factory Method] [1]
 ##Type
 *Creational*
 
@@ -27,3 +27,5 @@ Use **FactoryMethod** when:
  
 ##Collaborations
 - Creator relies on its subclasses to define the factory method so that it returns an instance of the appropriate `ConcreteProduct`
+
+[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

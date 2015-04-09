@@ -1,4 +1,4 @@
-#Chain of Responsibility Pattern
+#[Chain of Responsibility Pattern] [1]
 ##Type
 *Behavioral*
 
@@ -24,3 +24,5 @@
 ##Colaborations
 - When a client issues a request, the request propagates along the chain until a `ConcreteHandler` object takes 
 responsibility for handling it.
+
+[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

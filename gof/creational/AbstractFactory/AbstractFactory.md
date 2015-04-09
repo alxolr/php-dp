@@ -1,4 +1,4 @@
-#Abstract Factory Pattern
+#Abstract Factory Pattern [1]
 ##Type
 *Creational*
 
@@ -24,3 +24,5 @@ Use **Abstract Factory** when:
  - implements the *AbstractProduct* interface.
 - **Client**
  - uses only interfaces declared by *AbstractFactory* and *AbstractProduct* classes.
+
+[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
