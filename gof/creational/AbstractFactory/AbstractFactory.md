@@ -25,4 +25,4 @@ Use **Abstract Factory** when:
 - **Client**
  - uses only interfaces declared by *AbstractFactory* and *AbstractProduct* classes.
 
-[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

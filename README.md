@@ -39,6 +39,7 @@
 [12]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Flyweight
 [13]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Proxy
 [14]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/ChainOfResponsibility
+[15]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Command
 
 
 

@@ -1,4 +1,4 @@
-#Prototype Pattern
+#Prototype Pattern [1]
 ##Type
 *Creational*
 
@@ -22,3 +22,5 @@ Use **Prototype** when:
  
 ##Collaborations
 - A client asks a prototype to clone itself.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

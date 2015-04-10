@@ -1,4 +1,4 @@
-#Flyweight Pattern
+#Flyweight Pattern [1]
 ##Type
 *Structural*
 
@@ -31,3 +31,5 @@ The **Flyweight Pattern** pattern's effectiveness depends heavily on how and whe
 ##Colaborations
 - State that a flyweight needs to function must be characterized as either intrinsic or extrinsic. Intrinsic state is stored in the `ConcreteFlyweight` objects. Clients pass this state to the flyweight when they invoke its operations.
 - Clients should not instantiate `ConcreteFlyweight`s directly. Clients must obtain `ConcreteFlyweight` objects exclusively from the `FlyweightFactory` object to ensure they are shared properly.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

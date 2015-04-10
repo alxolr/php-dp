@@ -1,4 +1,4 @@
-#[Command Pattern] [1] 
+#Command Pattern [1] 
 ##Type
 *Behavioral*
 
@@ -33,4 +33,4 @@ a function that's registered somewhere to be called at a later point. Commands a
 - The `invoker` issues a request by calling `Execute` on the command. When commands are undoable, `ConcreteCommand` stores state for undoing the command prior to invoking Execute.
 - The `ConcreteCommand` object invokes operations on its receiver to carry out the request.
 
-[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

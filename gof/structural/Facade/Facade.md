@@ -1,4 +1,4 @@
-#Facade Pattern
+#Facade Pattern [1]
 ##Type
 *Structural*
 
@@ -23,3 +23,5 @@ Use the **Facade Pattern**:
 ##Colaborations
  - Clients communicate with the subsystem by sending requests to `Facade`, which forwards them to appropriate subsystem object(s). Although the subsystem objects perform the actual work, the facade may have to do work of its own to translate its interface to subsystem interfaces.
  - Clients that use the facade don't have to access its subsystem objects directly.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

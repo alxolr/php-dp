@@ -1,4 +1,4 @@
-#Composite Pattern
+#Composite Pattern [1]
 ##Type
 *Structural*
 
@@ -28,3 +28,5 @@ Use the **Composite Pattern** when:
  
 ##Colaborations
  - Clients use the Component class interface to interact with objects in the composite structure. If the recipient is a Leaf, then the request is handled directly. If the recipient is a Composite, then it usually forwards requests to its child components, possibly performing additional operations before and/or after forwarding.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

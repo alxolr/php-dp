@@ -1,4 +1,4 @@
-#Singleton Pattern
+#Singleton Pattern [1]
 ##Type
 *Creational*
 
@@ -17,3 +17,5 @@ Use **Singleton** when:
 
 ##Collaborations
 - Clients access a `Singleton` instance solely through `Singleton`'s Instance operation.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

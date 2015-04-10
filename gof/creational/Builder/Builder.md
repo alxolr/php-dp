@@ -1,4 +1,4 @@
-#[Builder Pattern] [1]
+#Builder Pattern [1]
 ##Type
 *Creational*
 
@@ -29,4 +29,4 @@ Use **Builder** when:
 - `Builder` handles requests from the director and adds parts to the product.
 - The client retrieves the product from the `builder`.
 
-[1]: "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

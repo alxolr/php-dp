@@ -1,4 +1,4 @@
-#Proxy Pattern
+#Proxy Pattern [1]
 ##Type
 *Structural*
 
@@ -45,3 +45,5 @@ Typical uses include:
  
 ##Colaborations
 The proxy forwards requests to `RealSubject` when appropriate, depending on the kind of proxy.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

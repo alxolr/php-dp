@@ -1,4 +1,4 @@
-#Bridge Pattern
+#Bridge Pattern [1]
 ##Type
 *Structural*
 
@@ -29,3 +29,5 @@ Use the **Bridge Pattern** when:
  
 ##Colaborations
  - Abstraction forwards client requests to its `Implementor` object.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

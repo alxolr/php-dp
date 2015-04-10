@@ -1,4 +1,4 @@
-#Decorator Pattern
+#Decorator Pattern [1]
 ##Type
 *Structural*
 
@@ -26,3 +26,5 @@ Use the **Decorator Pattern**:
  
 ##Colaborations
  - Decorator forwards requests to its Component object. It may optionally perform additional operations before and after forwarding the request.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*

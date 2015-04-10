@@ -1,4 +1,4 @@
-#Adapter Pattern
+#Adapter Pattern [1]
 ##Type
 *Structural*
 
@@ -26,3 +26,5 @@ Use **Adapter pattern** when:
  
 ##Colaborations
  - Clients call operations on an Adapter instance. In turn, the adapter calls Adaptee operations that carry out the request.
+
+[1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
