@@ -232,7 +232,7 @@ class BooleanOrExpression extends OperatorExpression
      */
     protected function doInterpret(InterpreterContext $context, $resultLeft, $resultRight)
     {
-        $context->replace($context, $resultRight || $resultLeft);
+        $context->replace($this, $resultRight || $resultLeft);
     }
 }
 
