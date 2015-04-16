@@ -25,7 +25,4 @@ Use the `Iterator` pattern
 - **ConcreteAggregate**
  - implements the `Iterator` creation interface to return an instance of the proper `ConcreteIterator` .
 
-##Colaborations
- - A `ConcreteIterator` 
-
 [1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
