@@ -3,30 +3,33 @@
 *Behavioral*
 
 ##Intent
-> 
+> Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+##Also Known As
+Dependents, Publish-Subscribe
 
 ##Applicability
-Use the `Memento` pattern when
- - a snapshot of (some portion of) an object's state must be saved so that it can be restored to that state later, and
- - a direct interface to obtaining the state would expose implementation details and break the object's encapsulation.
+Use the `Observer` pattern in any of the following situations:
+ - When an abstraction has two aspects, one dependent on the other. Encapsulating these aspects in separate objects lets you vary and reuse them independently.
+ - When a change to one object requires changing others, and you don't know how many objects need to be changed.
+ - When an object should be able to notify other objects without making assumptions about who these objects are. In other words, you don't want these objects tightly coupled.
  
 ##Participants
-- **Memento**
- - stores internal state of the `Originator` object. The memento may store as much or as little of the originator's internal state as necessary at its originator's discretion.
- - protects against access by objects other than originator. Memento have effectively two interfaces. Caretaker sees a narrow interface to the Memento - it can only pass the memento to the other objects. `Originator`, in contrast, sees a wide interface, one that lets it access all the data necessary to restore itself to its previous state. Ideally, only the originator that produced the memento would permitted to access the memento's internal state.
-- **Originator**
- - creates a memento containing a snapshot of its current internal state.
- - uses the memento to restore it's internal state.
-- **Caretaker**
- - is responsible for the memento's safekeeping
- - never operates on or examines the contents of a memento
-
-##Colaborations
- - A caretaker requests a memento from an originator, holds it for a time, and passes it back to the originator. Sometimes the caretaker won't pass the memento back to the originator, because the originator might never need to revert to an earlier state.
- - Mementos are passive. Only the originator that created a memento will assign or retrieve its state.
+- **Subject**
+ - knows it's observers. Any number of Observer objects may observer a subject.
+ - provides an interface for attaching and detaching Observer objects.
+- **Observer**
+ - defines an updating interface for objects that should be notified of changes in a subject.
+- **ConcreteSubject**
+ - stores state of interest to `ConcreteObserver` objects.
+ - sends a notification to its observers when its state changes.
+- **ConcreteObserver**
+ - maintains a reference to a `ConcreteSubject` object.
+ - stores state that should stay consistent with the subject's.
+ - implements the Observer updating interface to keep its state consistent with the subject's.
  
-##Implementation
-* *Language support.* Mementos have two interfaces: a wide one for the originators and a narrowone for other objects. Ideally the implementation language will support two levels of static protection.
-* *Storing incremental changes.* When mementos get created and passed back to their originator in a predictable sequence, then Memento can save just the *incremental change* to the originator's internal state.
-
+##Colaborations
+ - ConcreteSubject notifies its observers whenever a change occurs that could make it's observer's state inconsistent with it's own.
+ - After being informed of a change in the concrete subject, a `ConcreteObserver` object may query the subject for information. `ConcreteObserver` uses this information to reconcile its state with that of the subject.
+ 
 [1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
