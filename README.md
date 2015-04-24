@@ -28,6 +28,7 @@
  - [*Iterator*][17]
  - [*Mediator*][18]
  - [*Memento*][19]
+ - [*Observer*][20]
 
 [1]: http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1427538154&sr=8-1&keywords=Design+patterns+elements
 [2]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Singleton
@@ -48,6 +49,7 @@
 [17]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Iterator
 [18]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Mediator
 [19]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Memento
+[20]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Observer
 
 
 
