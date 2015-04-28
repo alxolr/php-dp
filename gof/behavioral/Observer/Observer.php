@@ -5,11 +5,21 @@ function frand($min, $max, $decimals = 0) {
     return mt_rand($min * $scale, $max * $scale) / $scale;
 }
 
+/**
+ * Interface Observer
+ */
 interface Observer
 {
+    /**
+     * @param Currency $currency
+     * @return mixed
+     */
     public function addCurrency(Currency $currency);
 }
 
+/**
+ * Class PriceSimulator
+ */
 class PriceSimulator implements Observer
 {
     private $currencies;
@@ -19,11 +29,18 @@ class PriceSimulator implements Observer
         $this->currencies = array();
     }
 
+    /**
+     * @param Currency $currency
+     * @return mixed|void
+     */
     public function addCurrency(Currency $currency)
     {
         array_push($this->currencies, $currency);
     }
 
+    /**
+     *
+     */
     public function updatePrice()
     {
         foreach ($this->currencies as $currency) {
@@ -32,17 +49,32 @@ class PriceSimulator implements Observer
     }
 }
 
+/**
+ * Interface Currency
+ */
 interface Currency
 {
+    /**
+     * @return mixed
+     */
     public function update();
 
+    /**
+     * @return mixed
+     */
     public function getPrice();
 }
 
+/**
+ * Class Pound
+ */
 class Pound implements Currency
 {
     private $price;
 
+    /**
+     * @param $price
+     */
     public function __construct($price)
     {
         $this->price = $price;
@@ -62,6 +94,9 @@ class Pound implements Currency
 
 }
 
+/**
+ * Class Yen
+ */
 class Yen implements Currency
 {
     private $price;
