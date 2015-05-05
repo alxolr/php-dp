@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Interface State
+ */
 interface State
 {
     /**
@@ -6,11 +10,22 @@ interface State
      * @return mixed
      */
     public function parse($input);
+
+    /**
+     * @return mixed
+     */
     public function valid();
 }
 
+/**
+ * Class EvenOnesState
+ */
 class EvenOnesState implements State
 {
+    /**
+     * @param $input
+     * @return $this|OddOnesState
+     */
     public function parse($input) {
         if ($input == 1) {
             return new OddOnesState();
@@ -19,33 +34,60 @@ class EvenOnesState implements State
         }
     }
 
+    /**
+     * @return bool
+     */
     public function valid()
     {
         return true;
     }
 }
 
+/**
+ * Class OddOnesState
+ */
 class OddOnesState implements State {
+    /**
+     * @param $input
+     * @return EvenOnesState
+     */
     public function parse($input) {
         if ($input == 1) {
             return new EvenOnesState();
         }
     }
+
+    /**
+     * @return bool
+     */
     public function valid()
     {
         return false;
     }
 }
 
+/**
+ * Class ParityBitValidator
+ */
 class ParityBitValidator
 {
+    /**
+     * @var State
+     */
     protected $state;
 
+    /**
+     * @param State $initialState
+     */
     public function __construct(State $initialState)
     {
         $this->state = $initialState;
     }
 
+    /**
+     * @param $bits
+     * @return mixed
+     */
     public function isValid($bits)
     {
         for ($i = 0; $i < strlen($bits); $i++) {
