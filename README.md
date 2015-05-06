@@ -30,6 +30,9 @@
  - [*Memento*][19]
  - [*Observer*][20]
  - [*State*][21]
+ - [*Strategy*][22]
+ - [*Template*][23]
+ - [*Visitor*][24]
 
 [1]: http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1427538154&sr=8-1&keywords=Design+patterns+elements
 [2]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Singleton
@@ -52,6 +55,9 @@
 [19]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Memento
 [20]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Observer
 [21]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/State
+[22]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Strategy
+[23]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Template
+[24]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Visitor
 
 
 
