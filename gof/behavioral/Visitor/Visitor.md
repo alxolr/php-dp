@@ -22,7 +22,7 @@ Use the Visitor pattern when:
  - implements an Accept operation that takes a visitor as an argument.
 - **ObjectStructure**
  - can enumerate its elements.
- - may provide a high-level iterface to allow the visitor to visit its elements.
+ - may provide a high-level interface to allow the visitor to visit its elements.
  - may either be a composite or a collection such as a list or a set.
  
 ##Colaborations
