@@ -35,29 +35,29 @@
  - [*Visitor*][24]
 
 [1]: http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?ie=UTF8&qid=1427538154&sr=8-1&keywords=Design+patterns+elements
-[2]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Singleton
-[3]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/FactoryMethod
-[4]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/AbstractFactory
-[5]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Prototype
-[6]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/creational/Builder
-[7]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Adapter
-[8]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Bridge
-[9]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Composite
-[10]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Decorator
-[11]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Facade
-[12]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Flyweight
-[13]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/structural/Proxy
-[14]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/ChainOfResponsibility
-[15]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Command
-[16]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Interpreter
-[17]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Iterator
-[18]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Mediator
-[19]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Memento
-[20]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Observer
-[21]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/State
-[22]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Strategy
-[23]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Template
-[24]: https://github.com/olarualexandru/php-design-patterns/tree/master/gof/behavioral/Visitor
+[2]: https://github.com/alxolr/php-dp/tree/master/gof/creational/Singleton
+[3]: https://github.com/alxolr/php-dp/tree/master/gof/creational/FactoryMethod
+[4]: https://github.com/alxolr/php-dp/tree/master/gof/creational/AbstractFactory
+[5]: https://github.com/alxolr/php-dp/tree/master/gof/creational/Prototype
+[6]: https://github.com/alxolr/php-dp/tree/master/gof/creational/Builder
+[7]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Adapter
+[8]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Bridge
+[9]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Composite
+[10]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Decorator
+[11]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Facade
+[12]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Flyweight
+[13]: https://github.com/alxolr/php-dp/tree/master/gof/structural/Proxy
+[14]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/ChainOfResponsibility
+[15]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Command
+[16]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Interpreter
+[17]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Iterator
+[18]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Mediator
+[19]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Memento
+[20]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Observer
+[21]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/State
+[22]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Strategy
+[23]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Template
+[24]: https://github.com/alxolr/php-dp/tree/master/gof/behavioral/Visitor
 
 
 
