@@ -1,4 +1,7 @@
 # Design Patterns Written in PHP
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/8a35b3ff-8150-40a0-be25-d126e9d75e88/mini.png)](https://insight.sensiolabs.com/projects/8a35b3ff-8150-40a0-be25-d126e9d75e88)
+
 *This repository is a collection of code examples for the standard catalog of design patterns*
 
 ## List of design patterns
