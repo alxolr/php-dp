@@ -121,17 +121,9 @@ class Client
      * @var string
      */
     private $second;
-    /**
-     * @var string
-     */
-    private $element;
 
-    /**
-     *
-     */
     public function __construct()
     {
-        $this->element = 'restore';
         $this->first = 'first';
         $this->second = 'second';
         $this->ct = new Caretaker();

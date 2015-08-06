@@ -69,7 +69,7 @@ class ProxyImage implements Image
 
     public function displayImage()
     {
-        if ($this->realImage == null) {
+        if ($this->realImage === null) {
             $this->realImage = new RealImage($this->fileName);
         }
 

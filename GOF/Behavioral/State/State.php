@@ -98,7 +98,9 @@ class ParityBitValidator
      */
     public function isValid($bits)
     {
-        for ($i = 0; $i < strlen($bits); $i++) {
+        $length = strlen($bits);
+
+        for ($i = 0; $i < $length; $i++) {
             $bit = $bits[$i];
             $this->state = $this->state->parse($bit);
         }
@@ -107,7 +109,6 @@ class ParityBitValidator
     }
 }
 
-
 $validator = new ParityBitValidator(new EvenOnesState());
-var_dump($validator->isValid('10101001101'));
-var_dump($validator->isValid('101010011011'));
+$validator->isValid('10101001101');
+$validator->isValid('101010011011');
