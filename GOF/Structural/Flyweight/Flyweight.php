@@ -1,4 +1,5 @@
 <?php
+namespace DP\GOF\Structural\Flyweight;
 
 /**
  * Class Nationality

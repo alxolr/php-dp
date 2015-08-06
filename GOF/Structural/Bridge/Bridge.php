@@ -1,4 +1,5 @@
 <?php
+namespace DP\GOF\Structural\Bridge;
 
 /**
  * Class BridgeBook
