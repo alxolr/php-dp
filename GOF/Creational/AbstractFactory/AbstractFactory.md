@@ -2,7 +2,7 @@
 ##Type
 *Creational*
 
-##Class Diagram Example
+##Class Diagram
 ![Class Diagram](http://yuml.me/aa61b90c)
 
 ##Intent
