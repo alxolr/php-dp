@@ -3,7 +3,7 @@
 *Creational*
 
 ##Class Diagram Example
-[2]
+![Class Diagram](http://yuml.me/aa61b90c)
 
 ##Intent
 *Provide an interface for creating families of related or dependent objects without specifying their concrete classes.*
@@ -29,4 +29,3 @@ Use **Abstract Factory** when:
  - uses only interfaces declared by *AbstractFactory* and *AbstractProduct* classes.
 
 [1] "Design Patterns: Elements of Reusable Object-Oriented Software" - *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*
-[2] http://yuml.me/aa61b90c "Class Diagram"
